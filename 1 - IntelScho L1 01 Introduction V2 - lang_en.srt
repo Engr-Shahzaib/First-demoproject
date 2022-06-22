@@ -1,0 +1,20 @@
+1
+00:00:00,000 --> 00:00:05,535
+In this lesson, we'll cover the basics of the Intel distribution of OpenVINO toolkit,
+
+2
+00:00:05,535 --> 00:00:08,085
+different computer vision model types,
+
+3
+00:00:08,085 --> 00:00:11,010
+the available pre-trained models in the software,
+
+4
+00:00:11,010 --> 00:00:13,725
+choosing the right pre-trained model for your app,
+
+5
+00:00:13,725 --> 00:00:18,880
+and loading and deploying a basic application with the pre-trained model.
+

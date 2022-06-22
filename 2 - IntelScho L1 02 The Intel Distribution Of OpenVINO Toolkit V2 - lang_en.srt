@@ -1,0 +1,112 @@
+1
+00:00:00,000 --> 00:00:02,850
+Let's kick things off with a brief introduction
+
+2
+00:00:02,850 --> 00:00:06,135
+to the Intel distribution of OpenVINO toolkit.
+
+3
+00:00:06,135 --> 00:00:09,120
+The OpenVINO toolkit name comes from
+
+4
+00:00:09,120 --> 00:00:14,130
+open visual inferencing and neural network optimization, not wine.
+
+5
+00:00:14,130 --> 00:00:16,065
+As the name implies,
+
+6
+00:00:16,065 --> 00:00:21,250
+it is largely focused around optimizing neural network inference and it's open source.
+
+7
+00:00:21,250 --> 00:00:26,550
+It's developed by Intel and help support fast inference across Intel CPUs,
+
+8
+00:00:26,550 --> 00:00:31,845
+GPUs, FPGAs, and the Neural Compute Stick with a common API.
+
+9
+00:00:31,845 --> 00:00:35,310
+You can take models built with multiple different frameworks,
+
+10
+00:00:35,310 --> 00:00:37,300
+like TensorFlow or Caffe,
+
+11
+00:00:37,300 --> 00:00:41,630
+and use its model optimizer to optimize for inference.
+
+12
+00:00:41,630 --> 00:00:44,750
+Once a model is put through the model optimizer,
+
+13
+00:00:44,750 --> 00:00:46,895
+you can use it with the inference engine,
+
+14
+00:00:46,895 --> 00:00:50,195
+which helps speed inference on the related hardware.
+
+15
+00:00:50,195 --> 00:00:52,460
+There's also a wide variety of
+
+16
+00:00:52,460 --> 00:00:55,655
+pre-trained models already put through the model optimizer,
+
+17
+00:00:55,655 --> 00:01:00,970
+which we'll cover in this lesson as well as those later lessons for the other components.
+
+18
+00:01:00,970 --> 00:01:05,500
+So how does this relate to AI at the Edge?
+
+19
+00:01:05,500 --> 00:01:08,840
+By optimizing for model speed and size,
+
+20
+00:01:08,840 --> 00:01:11,310
+this software enables running at the Edge.
+
+21
+00:01:11,310 --> 00:01:15,845
+Note that this does not mean an increase in inference accuracy.
+
+22
+00:01:15,845 --> 00:01:19,275
+This needs to be done in training beforehand.
+
+23
+00:01:19,275 --> 00:01:23,120
+The smaller, quicker models the software generates,
+
+24
+00:01:23,120 --> 00:01:26,240
+along with the hardware optimizations it provides,
+
+25
+00:01:26,240 --> 00:01:29,360
+are great for lower resource applications.
+
+26
+00:01:29,360 --> 00:01:32,360
+An Internet of things device, for instance,
+
+27
+00:01:32,360 --> 00:01:35,480
+doesn't have the benefit of the Cloud where it might have
+
+28
+00:01:35,480 --> 00:01:41,190
+multiple GPUs and almost unlimited memory space to run its applications.
+

@@ -1,0 +1,64 @@
+1
+00:00:00,000 --> 00:00:02,340
+As mention before, there are
+
+2
+00:00:02,340 --> 00:00:06,150
+a lot of pre-trained models available directly in the software.
+
+3
+00:00:06,150 --> 00:00:11,685
+Let's take a quick look at what pre-trained models are and how they are used.
+
+4
+00:00:11,685 --> 00:00:16,335
+Pre-trained models referred to models where retraining has already occurred.
+
+5
+00:00:16,335 --> 00:00:20,730
+This can lead to high even cutting-edge accuracy and
+
+6
+00:00:20,730 --> 00:00:25,125
+avoids the need for large-scale data collection and long costly training.
+
+7
+00:00:25,125 --> 00:00:28,785
+Given knowledge of how to preprocess inputs and handle the outputs,
+
+8
+00:00:28,785 --> 00:00:31,995
+you can plug these directly into your own app.
+
+9
+00:00:31,995 --> 00:00:35,520
+In the toolkit, pre-trained models refers specifically to
+
+10
+00:00:35,520 --> 00:00:40,890
+the Model Zoo containing pre-trained models already converted using the model optimizer.
+
+11
+00:00:40,890 --> 00:00:45,985
+As such, you can use these models directly with the inference engine.
+
+12
+00:00:45,985 --> 00:00:48,020
+You seen this slide before,
+
+13
+00:00:48,020 --> 00:00:51,080
+but here's just a quick visual reminder on how you can feed
+
+14
+00:00:51,080 --> 00:00:54,445
+the pre-trained model directly into the inference engine.
+
+15
+00:00:54,445 --> 00:00:59,870
+Before we get into the full set of pre-trained models available in the OpenVINO toolkit,
+
+16
+00:00:59,870 --> 00:01:04,410
+let's cover some of the basics of computer vision models first.
+
